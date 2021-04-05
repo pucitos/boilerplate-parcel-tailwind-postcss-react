@@ -1,0 +1,17 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+:root {
+    --clr-primary: rgb(1, 115, 168);
+    --clr-body: rgb(207, 108, 15);
+    --clr-bg: #ddd;
+    --spacer: 1rem;
+}
+
+.customBody {
+    background-color: rgb(207, 108, 15);
+    color: white;
+}
