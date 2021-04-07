@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@use "abstracts/variables" as *;
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
@@ -8,6 +9,5 @@
 // sass folder structure from
 //https://github.com/KittyGiraudel/sass-boilerplate
 
-@import "abstracts/variables";
 
 @import "base/base";
